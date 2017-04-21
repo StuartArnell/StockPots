@@ -43,12 +43,14 @@ This application will let you converse with a TJBot.  At each interaction it wil
  
  # Node-red flows
  
- Clone or download the repository to get the sample flow:
+ Clone or download the repository.  This contains the sample flows, and configuration files for the Watson elements.
 
     git clone git@github.com:StuartArnell/StockPots.git
     cd StockPots
  
- Copy the content of the flows_raspberrypi.json file to clipboard. Go to http://localhost:1880 on the RaspberryPi and import the flow.  In the upper right corner click on the menu bar, then Import > Clipboard to import the flow:
+ Copy the content of the flows_raspberrypi.json file to clipboard. 
+ 
+ Then, go to http://localhost:1880 on the RaspberryPi and import the flow by clicking the hamburger menu in the menu bar, then Import > Clipboard to import the flows.
  
  
 # Bluemix configuration
@@ -101,12 +103,17 @@ The commands are:
 -   Show the bot (hold up to the camera) your product package and say 'Ready' as instructed.
 -   Once TJ has verified that the product has been recognised ( saying it is either vegetable or chicken stock ) you can ask questions about the product.  See the Conversation Intents for details - but try 'Where is it made?  What is in it?  Is it suitable for vegetarians?' as examples
 
+You can also use the 'special command' to start the whole flow again.  Just say 'Start Again'.  The conversation status will be reset to the beginning.
+
+
 # Whats Next?
 
 Obviously, you may want to trai your bot in different products.  Bear in mind that you will need to change the conversation intents and dialogs appropriately aswell as training the visual recognition.
 
 
+# Disclaimer
 
+I won't claim tha this is the best way to achieve what this application does - but I will claim that it does work :-)  There may be better ways, and I will refine over time, but I have used it as a start point for conversations with otehr people and it is easy to build further function onto it now it is working.
 
 
 
